@@ -533,6 +533,7 @@
 
 .g-card {
     border: 1px solid gray;
+    position: relative;
     display: flex;
     box-shadow: #303030;
 }
@@ -579,6 +580,7 @@
 
 }
 
+
 .g-vcard div {
     flex-direction: column;
     margin: 0.2rem 0px;
@@ -590,6 +592,21 @@
     height: 230px;
 
 
+}
+
+.gcard-badge {
+    border: 2px solid black;
+    position: absolute;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    right: 4px;
+    top:3px;
 }
 
 /* horizontal card */
@@ -656,6 +673,7 @@
     background-color: gray;
 
 }
+
 /* Stacked list start*/
 /* .g-Slist{
     border: 1px solid gray;
@@ -779,7 +797,7 @@
 /* Responsive image ends */
 /* responsive starts here */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
     .main-menu {
         padding-left: 0.3rem;
     }
@@ -793,6 +811,14 @@
     .g-hcard img {
         height: 100%;
         width: 100%;
+    }
+
+    .g-vcard {
+        width: 180px;
+    }
+
+    .g-vcard h1 {
+        font-size: 17px;
     }
 
     .g-alert {
@@ -810,6 +836,18 @@
         width: 200px;
         text-align: start;
         border: 1px solid var(--nav-color)
+    }
+
+    .cart-price {
+        font-size: 10px;
+    }
+
+    .discount {
+        font-size: 12px;
+    }
+
+    .g-card .old-price {
+        font-size: 12px;
     }
 }
 
