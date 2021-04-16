@@ -534,7 +534,7 @@
 .g-card {
     border: 1px solid gray;
     position: relative;
-    display: flex;
+    display: inline-flex;
     box-shadow: #303030;
 }
 
@@ -829,7 +829,12 @@
     }
 
     .g-vcard {
-        width: 180px;
+        width: 48%;
+
+    }
+
+    .g-card img{
+        width:-webkit-fill-available;
     }
 
     .g-vcard h1 {
