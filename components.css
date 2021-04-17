@@ -573,7 +573,7 @@
 /* vertical cards */
 .g-vcard {
     width: 248px;
-    min-height: 360px;
+    height: 430px;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
