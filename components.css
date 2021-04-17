@@ -834,7 +834,7 @@
     }
 
     .g-card img{
-        width:-webkit-fill-available;
+        width:-webkit-fill-available,-moz-available;
     }
 
     .g-vcard h1 {
