@@ -466,7 +466,8 @@
 }
 
 .g-button-success {
-    border: 2px solid #b6dcc8 background-color: #b6dcc8;
+    border: 2px solid #b6dcc8;
+     background-color: #b6dcc8;
     color: green;
 }
 
